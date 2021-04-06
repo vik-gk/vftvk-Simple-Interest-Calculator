@@ -1,4 +1,40 @@
-body {background-color:tan;}
-h1{color:green;}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  background-color: black;
+}
 
+h1 {
+  color: grey;
+}
 
+.maindiv {
+  margin-left: 35%;
+  margin-right: 35%;
+  width: max-content;
+  background-color: white;
+  padding: 20px;
+  border-radius: 25px;
+}
+
+form {
+  margin-left: 15%;
+}
+
+label,
+input,
+select,
+span,
+button {
+  margin-top: 10px;
+}
+
+input,
+select {
+  margin-left: 15%;
+}
+
+#result {
+    display:inline-block;
+  }
+  

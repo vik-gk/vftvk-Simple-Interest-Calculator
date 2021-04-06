@@ -11,7 +11,7 @@ function compute()
     }
     else{
         var interest = principal * years * rate/100;
-        var updatedYear= end_year = new Date().getFullYear() + years;
+        var updatedYear= end_year = new Date().getFullYear() + parseInt(years);
 
         var resultFinal = "If you Deposit <mark>"+principal +"</mark>,"+"<br>At an Interest Rate of <mark>"+rate+
         "%</mark>,<br>You will Receive an Amount of <mark>"+interest+
